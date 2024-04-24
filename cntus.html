@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+         .navbar ul{
+        overflow: auto;
+    }
+    .navbar li{
+        float: left;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        list-style: none;
+        padding: 30px;
+        
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: rgb(114, 57, 57);
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .container{
+        border: 2px;
+    }
+    .mid{
+        display: flex;
+        position: absolute;
+        left: 800px;
+        top:13px;
+        font-size: medium;
+        font-weight: bolder;
+    }
+    .left{
+        display: flex;
+        position: absolute;
+        left: 100px;
+        height: 100px;
+    }
+    .container{
+        height: 100px;
+        width: 100px;
+        margin-top: 0px;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .contact {
+            width: 45%;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+        }
+
+        .get-in-touch {
+            width: 45%;
+            padding: 20px;
+            color: rgb(92, 40, 40);
+        }
+
+        h1 {
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            color:gray;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .contact-details {
+            font-weight: bold;
+        }
+
+        .form-container {
+            margin-top: 20px;
+        }
+
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .form-container button {
+           
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: rgb(92, 40, 40);
+
+        }
+
+        
+        .form-container h1{
+            color: rgb(92, 40, 40);
+        }
+               .left{
+            margin-top: -20pc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">  
+        <header>
+            <div class="left">
+                <img src="logo.png" alt="">
+                </div>
+    
+            <div class="mid">
+                <nav class="navbar">
+                    <li><a href="Home.html" target="_blank" >HOME</a></li>
+                    <li><a href="men.html"  target="_blank">MEN</a></li>
+                    <li><a href="femail.html"  target="_blank">WOMEN</a></li>
+                    <li><a href="aboutus.html"  target="_blank">ABOUT US</a></li>
+                    <li><a href="cntus.html"  target="_blank">COTACT US</a></li>
+                </nav>
+            </div>
+            <div class="right">
+            </div>
+        </header>
+    </div>
+    <div class="contact">
+       
+        <div class="form-container">
+            <h1>Contact</h1>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="get-in-touch">
+        <h1>Get in Touch</h1>
+               <ul>
+            <li>Besides Amrut Institute, Toraniya, Junagadh, PinCode:362263</li>
+            <br>
+            <li>+91 8140114045</li>
+            <br>
+            <li>nitiyasavaliya89@google.com</li>
+            <br>
+            <li>Monday - Friday 10 AM - 8 PM</li> 
+        </ul>     
+    </div>
+   </body>
+</html>
